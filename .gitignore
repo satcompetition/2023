@@ -1,1 +1,7 @@
-paper/.main.tex.swp
+*.aux
+*.fdb_latexmk
+*.synctex.gz
+*.log
+*.out
+*.fls
+*.swp

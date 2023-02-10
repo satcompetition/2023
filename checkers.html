@@ -7,22 +7,32 @@
 <link rel="stylesheet" href="template.css" type="text/css">
 <link rel="icon" type="image/x-icon" href="doge2.ico">
 <script src="https://www.w3schools.com/lib/w3.js"></script>
-<style>a#track-crypto { color:#e17861; }</style>
+<style>a#checkers { color:var(--link-color-2); }</style>
 </head>
 
 <body>
 <div class="main">
   <div class="navigation" w3-include-html="navigation.html"></div>
+  <div class="heading" w3-include-html="heading.html"></div>
   <script>w3.includeHTML();</script> 
 
   <div class="content">
-    <h1 class='tpl-name'></h1>
-	<h2>Crypto Track</h2>
-	  <p>The Crypto Track is just like Main Track except for it has 200 benchmarks, which all come from
-	  the same application domain - cryptography.</p>
-	  <p>If you wish to participate in the Crypto Track you only need to register to the Main or CaDiCaL-Hack Track, since
-	  all the participants of the those tracks are automatically included.</p>
-	
+	<h2>Proposed Proof Checkers</h2>
+
+    <p>
+We received the following proposals for proof checkers for the international SAT competitions.
+<ul>
+<li>
+    <a href="downloads/proposals/drat_dpr.pdf">Verified LRAT and LPR Proof Checking with cake_lpr</a></br>
+    by Yong Kiam Tan, Marijn J. H. Heule, and Magnus O. Myreen
+</li>
+<li>
+    <a href="downloads/proposals/grat.pdf">GRAT: a formally verified (UN)SAT proof checker</a></br>
+    by Peter Lammich
+</li>
+</ul>
+    </p>
+
   </div>
 </div>
 </body>

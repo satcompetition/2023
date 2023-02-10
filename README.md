@@ -7,7 +7,7 @@ To keep up the driving force in improving SAT solvers, we want to motivate devel
 
 The 2023 SAT Competition will consist of the following tracks:
 
-* Main Track (including "New Proof Checkers" subtrack, see below)
+* Main Track (including the opportunity to choose from several different proof checkers)
 
 * Parallel Track
 
@@ -20,7 +20,7 @@ The 2023 SAT Competition will consist of the following tracks:
 
 We received several proposals as a response to our call for verified proof checkers.
 More details, including specifiations of input formats, will be available at the competition website.
-There will be a special track in which you can select the checker tool-chain to be used for verifying your unsat certificates.
+Solver submitters will be asked to select a proof checker of choice among those checkers now supported in the competition.
 
 
 ## Aspects to Highlight
