@@ -17,23 +17,13 @@
 
   <div class="content">
 	<h2>Competition Tracks</h2>
-	
-	<p>
-		The Main track as well as its subtracks will be run on the <a href="https://www.starexec.org/starexec/public/about.jsp">StarExec cluster</a>.
-		The time limit for solving an instance will be 5000 seconds (in each track). 
-		The solvers will be allowed to use up to 128GB of RAM.
-	</p>
-		
-	<p>
-		Printing a model in case of a satisfiable instance is required for all tracks. 
-		UNSAT certificates (proofs) are required only in the main tracks.
-	</p>
 		
 	<h3 id="main">Main Track</h3> 
 		Main track is the track for sequential SAT solvers.
-		This track will be run on the StarExec Cluster.
+		This track as well as its subtracks will be run on the <a href="https://www.starexec.org/starexec/public/about.jsp">StarExec cluster</a>. 
 		Consider the <a href="rules.html">general submission guidelines</a> and the <a href="starexec.html">StarExec submission instructions</a>.
 		We will use 300-600 benchmark problems, the time limit will be 5000 seconds.
+		The solvers will be allowed to use up to 128GB of RAM.
 		All solvers participating in the Main track are required to provide certificates in both SAT and UNSAT cases. 
 		For more information about the UNSAT certificates see <a href="certificates.html">this page</a>.
 
@@ -61,14 +51,15 @@
 		</p>
 	
 	<h4 id="nolimits">No-Limits Track</h4>
-		If your solver does not generate UNSAT proofs or if you do not want to publish your source code, 
+		If your solver does not generate SAT or UNSAT certificates or if you do not want to publish your source code, 
 		you can still submit your solver to the No-Limits track. 
 		<p>Each solver submitted to the Main track will automatically participate in the No-Limits track. </p>
-		<p>The No-Limits track will only be evaluated with respect to the new benchmarks instances which are submitted to this SAT Competition.</p>
+		<p>The No-Limits track will only be evaluated with respect to the <i>new</i> benchmarks instances which are submitted to this SAT Competition.</p>
 		
 	<h3 id="parallel">Parallel Track</h3>
 		The Parallel track will be run on Amazon Web Services (AWS).
 		Consider the <a href="rules.html">general submission guidelines</a> and the <a href="aws.html">AWS submission instructions</a>.
+		All solvers participating in the Parallel track are required to provide a model in the SAT case.
 		The solvers participating in this track will be executed with a wall-clock time limit of 5000 seconds.
 		Each solver will be run an a single AWS machine of the type m4.16xlarge, which has 64 virtual cores and 256GB of memory. 
 		More details about m4.16xlarge nodes can be found 
@@ -78,6 +69,7 @@
 		The Cloud track will evaluate the effectiveness of parallel SAT solvers to run in a distributed manner. 
 		This track will be run on Amazon Web Services(AWS).
 		Consider the <a href="rules.html">general submission guidelines</a> and the <a href="aws.html">AWS submission instructions</a>.
+		All solvers participating in the Cloud track are required to provide a model in the SAT case.
 		The solvers participating in this track will be executed with a wall-clock time limit of 1000 seconds running on 100 m4.4xlarge machines in parallel. 
 		Each m4.4xlarge machine has 16 virtual CPUs and 64 GB memory. 
 		Communication between the machines is possible using MPI and SSH.
