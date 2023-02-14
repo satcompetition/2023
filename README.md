@@ -7,7 +7,7 @@ To keep up the driving force in improving SAT solvers, we want to motivate devel
 
 The 2023 SAT Competition will consist of the following tracks:
 
-* Main Track (including the opportunity to choose from several different proof checkers)
+* Main Track (including the *new* opportunity to choose from several different proof checkers)
 
 * Parallel Track
 
