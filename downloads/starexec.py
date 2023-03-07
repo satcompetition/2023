@@ -24,7 +24,9 @@ class StarExecJob:
     # @param memout Memory limit for the solver (in MB)
     def __init__(self, 
         name: str, 
-        queue_id: int = 186899,
+        #queue_id: int = 186899, # SAT Comp. 2023
+        #queue_id: int = 88797, # long.q
+        queue_id: int = 1, # all.q
         global_timeout: int = 5000, 
         cpu_timeout: int = 1800, 
         wallclock_timeout: int = 2000, 
