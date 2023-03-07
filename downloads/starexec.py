@@ -25,9 +25,9 @@ class StarExecJob:
     def __init__(self, 
         name: str, 
         queue_id: int = 186899,
-        global_timeout: int = 45000, 
-        cpu_timeout: int = 5000, 
-        wallclock_timeout: int = 5500, 
+        global_timeout: int = 5000, 
+        cpu_timeout: int = 1800, 
+        wallclock_timeout: int = 2000, 
         memout: int = 128, 
         pipeline: StarExecCheckerPipeline = StarExecCheckerPipeline()
     ):
@@ -47,7 +47,7 @@ class StarExecJob:
     ## Specify job pipline for given solver
     # @param config_id ID of the solver run-script in StarExec
     def announce_solver_and_checkers(self, cid_solver):
-        cid_extract = 729420
+        cid_extract = 734050
         print("<SolverPipeline name='pipe{}'>".format(cid_solver))
         print("<PipelineStage config-id='{}' primary='true'><BenchmarkDependency input='1'/></PipelineStage>".format(cid_extract))
         print("<PipelineStage config-id='{}'></PipelineStage>".format(cid_solver))
