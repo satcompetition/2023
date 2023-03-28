@@ -7,7 +7,7 @@ import pandas as pd
 
 class StarExecCheckerPipeline:
 
-    def __init__(self, check_model = 737760, check_proof_pre = 737767, check_proof_post = 729419):
+    def __init__(self, check_model = 737760, check_proof_pre = 737767, check_proof_post = 737762):
         self.check_model = check_model
         self.check_proof_pre = check_proof_pre
         self.check_proof_post = check_proof_post
