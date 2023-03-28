@@ -7,7 +7,7 @@ import pandas as pd
 
 class StarExecCheckerPipeline:
 
-    def __init__(self, check_model = 729414, check_proof_pre = 729411, check_proof_post = 729419):
+    def __init__(self, check_model = 737760, check_proof_pre = 737767, check_proof_post = 729419):
         self.check_model = check_model
         self.check_proof_pre = check_proof_pre
         self.check_proof_post = check_proof_post
@@ -49,7 +49,7 @@ class StarExecJob:
     ## Specify job pipline for given solver
     # @param config_id ID of the solver run-script in StarExec
     def announce_solver_and_checkers(self, cid_solver):
-        cid_extract = 734050
+        cid_extract = 737758
         print("<SolverPipeline name='pipe{}'>".format(cid_solver))
         print("<PipelineStage config-id='{}' primary='true'><BenchmarkDependency input='1'/></PipelineStage>".format(cid_extract))
         print("<PipelineStage config-id='{}'></PipelineStage>".format(cid_solver))
@@ -101,20 +101,20 @@ class StarExecJob:
 
 
 def main():
-    cid_checkmodel = 734054
+    cid_checkmodel = 737760
 
-    cid_drat_trim = 734057
-    cid_drat_trim_bin = 734058
-    cid_dpr_trim = 734062
-    cid_dpr_trim_bin = 734052
-    cid_cake_lpr = 734053
+    cid_drat_trim = 737767
+    cid_drat_trim_bin = 737769
+    cid_dpr_trim = 737765
+    cid_dpr_trim_bin = 737764
+    cid_cake_lpr = 737762
 
-    cid_gratgen = 734060
-    cid_gratgen_bin = 734055
-    cid_gratchk = 734059
+    cid_gratgen = 737766
+    cid_gratgen_bin = 737759
+    cid_gratchk = 737768
 
-    cid_veripb = 734051
-    cid_cakepb = 734061
+    cid_veripb = 737761
+    cid_cakepb = 737770
 
     drat = StarExecCheckerPipeline(cid_checkmodel, cid_drat_trim, cid_cake_lpr)
     dratbin = StarExecCheckerPipeline(cid_checkmodel, cid_drat_trim_bin, cid_cake_lpr)
