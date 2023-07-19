@@ -5,3 +5,6 @@
 *.out
 *.fls
 *.swp
+*.nav
+*.snm
+*.toc
