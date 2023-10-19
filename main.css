@@ -91,14 +91,14 @@ th, td {
 
 table thead {
 	background-color:var(--background-color-1);
-	color:var(--link-color-1);
+	color:var(--text-color);
 	font-weight: bold;
 	cursor: default;
 }
 
 table tr.vbs {
 	background-color:var(--background-color-1);
-	color:var(--link-color-1);
+	color:var(--text-color);
 	font-weight: bold;
 	cursor: default;
 }

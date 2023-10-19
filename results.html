@@ -20,6 +20,711 @@ a#results { color:var(--link-color-2); }
 
   <div class="content">
 	<h2>Results</h2>
+  <h3>Main Track</h3>
+  <table class="sortable" style="font-size:8pt">
+    <thead>
+      <tr>
+        <th class="sorttable_nosort">Solver</th>
+        <th id="T_level0_col0" class="col_heading level0 col0" >Score</th>
+        <th id="T_level0_col1" class="col_heading level0 col1" >Solved</th>
+        <th id="T_level0_col2" class="col_heading level0 col2" >Score SAT</th>
+        <th id="T_level0_col3" class="col_heading level0 col3" >Solved SAT</th>
+        <th id="T_level0_col4" class="col_heading level0 col4" >Score UNSAT</th>
+        <th id="T_level0_col5" class="col_heading level0 col5" >Solved UNSAT</th>
+        <th id="T_level0_col6" class="col_heading level0 col6" >Score Special</th>
+        <th id="T_level0_col7" class="col_heading level0 col7" >Solved Special</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="vbs">
+        <td id="T_level0_row0" class="row_heading level0 row0" >VBS</td>
+        <td id="T_row0_col0" class="data row0 col0" >1679.90</td>
+        <td id="T_row0_col1" class="data row0 col1" >346</td>
+        <td id="T_row0_col2" class="data row0 col2" >1379.88</td>
+        <td id="T_row0_col3" class="data row0 col3" >137</td>
+        <td id="T_row0_col4" class="data row0 col4" >695.15</td>
+        <td id="T_row0_col5" class="data row0 col5" >209</td>
+        <td id="T_row0_col6" class="data row0 col6" >1548.15</td>
+        <td id="T_row0_col7" class="data row0 col7" >352</td>
+      </tr>
+      <tr>
+        <td id="T_level0_row1" class="row_heading level0 row1" >SBVA Cadical</th>
+        <td id="T_row1_col0" class="data row1 col0" >3274.01</td>
+        <td id="T_row1_col1" class="data row1 col1" >284</td>
+        <td id="T_row1_col2" class="data row1 col2" >2337.38</td>
+        <td id="T_row1_col3" class="data row1 col3" >122</td>
+        <td id="T_row1_col4" class="data row1 col4" >2975.11</td>
+        <td id="T_row1_col5" class="data row1 col5" >162</td>
+        <td id="T_row1_col6" class="data row1 col6" >3257.62</td>
+        <td id="T_row1_col7" class="data row1 col7" >285</td>
+      </tr>
+      <tr>
+        <td id="T_level0_row2" class="row_heading level0 row2" >KissatMabProp PrNosym</th>
+        <td id="T_row2_col0" class="data row2 col0" >3596.73</td>
+        <td id="T_row2_col1" class="data row2 col1" >272</td>
+        <td id="T_row2_col2" class="data row2 col2" >3376.46</td>
+        <td id="T_row2_col3" class="data row2 col3" >108</td>
+        <td id="T_row2_col4" class="data row2 col4" >2831.24</td>
+        <td id="T_row2_col5" class="data row2 col5" >164</td>
+        <td id="T_row2_col6" class="data row2 col6" >3580.43</td>
+        <td id="T_row2_col7" class="data row2 col7" >273</td>
+      </tr>
+      <tr>
+        <td id="T_level0_row3" class="row_heading level0 row3" >KissatMabProp</th>
+        <td id="T_row3_col0" class="data row3 col0" >3614.43</td>
+        <td id="T_row3_col1" class="data row3 col1" >270</td>
+        <td id="T_row3_col2" class="data row3 col2" >3665.51</td>
+        <td id="T_row3_col3" class="data row3 col3" >103</td>
+        <td id="T_row3_col4" class="data row3 col4" >2657.13</td>
+        <td id="T_row3_col5" class="data row3 col5" >167</td>
+        <td id="T_row3_col6" class="data row3 col6" >3575.78</td>
+        <td id="T_row3_col7" class="data row3 col7" >272</td>
+      </tr>
+      <tr>
+        <td id="T_level0_row4" class="row_heading level0 row4" >KissatMabProp Nosym</th>
+        <td id="T_row4_col0" class="data row4 col0" >3652.44</td>
+        <td id="T_row4_col1" class="data row4 col1" >267</td>
+        <td id="T_row4_col2" class="data row4 col2" >3434.99</td>
+        <td id="T_row4_col3" class="data row4 col3" >106</td>
+        <td id="T_row4_col4" class="data row4 col4" >2892.98</td>
+        <td id="T_row4_col5" class="data row4 col5" >161</td>
+        <td id="T_row4_col6" class="data row4 col6" >3636.14</td>
+        <td id="T_row4_col7" class="data row4 col7" >268</td>
+      </tr>
+      <tr>
+        <td id="T_level0_row5" class="row_heading level0 row5" >SBVA Kissat</th>
+        <td id="T_row5_col0" class="data row5 col0" >3882.65</td>
+        <td id="T_row5_col1" class="data row5 col1" >262</td>
+        <td id="T_row5_col2" class="data row5 col2" >2693.49</td>
+        <td id="T_row5_col3" class="data row5 col3" >116</td>
+        <td id="T_row5_col4" class="data row5 col4" >3852.39</td>
+        <td id="T_row5_col5" class="data row5 col5" >146</td>
+        <td id="T_row5_col6" class="data row5 col6" >3882.65</td>
+        <td id="T_row5_col7" class="data row5 col7" >262</td>
+      </tr>
+      <tr>
+        <td id="T_level0_row6" class="row_heading level0 row6" >MapleCadical PPD-500-500</th>
+        <td id="T_row6_col0" class="data row6 col0" >3933.51</td>
+        <td id="T_row6_col1" class="data row6 col1" >260</td>
+        <td id="T_row6_col2" class="data row6 col2" >2560.20</td>
+        <td id="T_row6_col3" class="data row6 col3" >118</td>
+        <td id="T_row6_col4" class="data row6 col4" >4042.48</td>
+        <td id="T_row6_col5" class="data row6 col5" >142</td>
+        <td id="T_row6_col6" class="data row6 col6" >3933.51</td>
+        <td id="T_row6_col7" class="data row6 col7" >260</td>
+      </tr>
+      <tr>
+        <td id="T_level0_row7" class="row_heading level0 row7" >MapleCadical LBD-990-275</th>
+        <td id="T_row7_col0" class="data row7 col0" >3952.54</td>
+        <td id="T_row7_col1" class="data row7 col1" >257</td>
+        <td id="T_row7_col2" class="data row7 col2" >2462.54</td>
+        <td id="T_row7_col3" class="data row7 col3" >119</td>
+        <td id="T_row7_col4" class="data row7 col4" >4147.84</td>
+        <td id="T_row7_col5" class="data row7 col5" >138</td>
+        <td id="T_row7_col6" class="data row7 col6" >3952.54</td>
+        <td id="T_row7_col7" class="data row7 col7" >257</td>
+      </tr>
+      <tr>
+        <td id="T_level0_row8" class="row_heading level0 row8" >PReLearn-Kissat</th>
+        <td id="T_row8_col0" class="data row8 col0" >3959.37</td>
+        <td id="T_row8_col1" class="data row8 col1" >258</td>
+        <td id="T_row8_col2" class="data row8 col2" >2663.20</td>
+        <td id="T_row8_col3" class="data row8 col3" >117</td>
+        <td id="T_row8_col4" class="data row8 col4" >4016.81</td>
+        <td id="T_row8_col5" class="data row8 col5" >141</td>
+        <td id="T_row8_col6" class="data row8 col6" >3959.37</td>
+        <td id="T_row8_col7" class="data row8 col7" >258</td>
+      </tr>
+      <tr>
+        <td id="T_level0_row9" class="row_heading level0 row9" >MapleCadical PPD-950-950</th>
+        <td id="T_row9_col0" class="data row9 col0" >3997.86</td>
+        <td id="T_row9_col1" class="data row9 col1" >257</td>
+        <td id="T_row9_col2" class="data row9 col2" >2604.58</td>
+        <td id="T_row9_col3" class="data row9 col3" >118</td>
+        <td id="T_row9_col4" class="data row9 col4" >4130.41</td>
+        <td id="T_row9_col5" class="data row9 col5" >139</td>
+        <td id="T_row9_col6" class="data row9 col6" >3997.86</td>
+        <td id="T_row9_col7" class="data row9 col7" >257</td>
+      </tr>
+      <tr>
+        <td id="T_level0_row10" class="row_heading level0 row10" >MapleCadical LBD-990-500</th>
+        <td id="T_row10_col0" class="data row10 col0" >4001.53</td>
+        <td id="T_row10_col1" class="data row10 col1" >257</td>
+        <td id="T_row10_col2" class="data row10 col2" >2618.14</td>
+        <td id="T_row10_col3" class="data row10 col3" >118</td>
+        <td id="T_row10_col4" class="data row10 col4" >4127.53</td>
+        <td id="T_row10_col5" class="data row10 col5" >139</td>
+        <td id="T_row10_col6" class="data row10 col6" >4001.53</td>
+        <td id="T_row10_col7" class="data row10 col7" >257</td>
+      </tr>
+      <tr>
+        <td id="T_level0_row11" class="row_heading level0 row11" >ReEncode-Kissat-pair</th>
+        <td id="T_row11_col0" class="data row11 col0" >4033.14</td>
+        <td id="T_row11_col1" class="data row11 col1" >257</td>
+        <td id="T_row11_col2" class="data row11 col2" >2578.98</td>
+        <td id="T_row11_col3" class="data row11 col3" >119</td>
+        <td id="T_row11_col4" class="data row11 col4" >4214.39</td>
+        <td id="T_row11_col5" class="data row11 col5" >138</td>
+        <td id="T_row11_col6" class="data row11 col6" >4033.14</td>
+        <td id="T_row11_col7" class="data row11 col7" >257</td>
+      </tr>
+      <tr>
+        <td id="T_level0_row12" class="row_heading level0 row12" >Cadical vivinst</th>
+        <td id="T_row12_col0" class="data row12 col0" >4048.63</td>
+        <td id="T_row12_col1" class="data row12 col1" >253</td>
+        <td id="T_row12_col2" class="data row12 col2" >2359.31</td>
+        <td id="T_row12_col3" class="data row12 col3" >122</td>
+        <td id="T_row12_col4" class="data row12 col4" >4400.54</td>
+        <td id="T_row12_col5" class="data row12 col5" >131</td>
+        <td id="T_row12_col6" class="data row12 col6" >4048.63</td>
+        <td id="T_row12_col7" class="data row12 col7" >253</td>
+      </tr>
+      <tr>
+        <td id="T_level0_row13" class="row_heading level0 row13" >Kissat-3.1.0</th>
+        <td id="T_row13_col0" class="data row13 col0" >4050.74</td>
+        <td id="T_row13_col1" class="data row13 col1" >253</td>
+        <td id="T_row13_col2" class="data row13 col2" >2584.83</td>
+        <td id="T_row13_col3" class="data row13 col3" >116</td>
+        <td id="T_row13_col4" class="data row13 col4" >4242.94</td>
+        <td id="T_row13_col5" class="data row13 col5" >137</td>
+        <td id="T_row13_col6" class="data row13 col6" >4050.74</td>
+        <td id="T_row13_col7" class="data row13 col7" >253</td>
+      </tr>
+      <tr>
+        <td id="T_level0_row14" class="row_heading level0 row14" >Cadical Scavel</th>
+        <td id="T_row14_col0" class="data row14 col0" >4050.95</td>
+        <td id="T_row14_col1" class="data row14 col1" >255</td>
+        <td id="T_row14_col2" class="data row14 col2" >2351.34</td>
+        <td id="T_row14_col3" class="data row14 col3" >123</td>
+        <td id="T_row14_col4" class="data row14 col4" >4410.58</td>
+        <td id="T_row14_col5" class="data row14 col5" >132</td>
+        <td id="T_row14_col6" class="data row14 col6" >4050.95</td>
+        <td id="T_row14_col7" class="data row14 col7" >255</td>
+      </tr>
+      <tr>
+        <td id="T_level0_row15" class="row_heading level0 row15" >Cadical ESA</th>
+        <td id="T_row15_col0" class="data row15 col0" >4085.34</td>
+        <td id="T_row15_col1" class="data row15 col1" >252</td>
+        <td id="T_row15_col2" class="data row15 col2" >2441.46</td>
+        <td id="T_row15_col3" class="data row15 col3" >121</td>
+        <td id="T_row15_col4" class="data row15 col4" >4410.01</td>
+        <td id="T_row15_col5" class="data row15 col5" >131</td>
+        <td id="T_row15_col6" class="data row15 col6" >4085.34</td>
+        <td id="T_row15_col7" class="data row15 col7" >252</td>
+      </tr>
+      <tr>
+        <td id="T_level0_row16" class="row_heading level0 row16" >PReLearn-Kissat-tern</th>
+        <td id="T_row16_col0" class="data row16 col0" >4095.19</td>
+        <td id="T_row16_col1" class="data row16 col1" >259</td>
+        <td id="T_row16_col2" class="data row16 col2" >2866.80</td>
+        <td id="T_row16_col3" class="data row16 col3" >117</td>
+        <td id="T_row16_col4" class="data row16 col4" >4123.67</td>
+        <td id="T_row16_col5" class="data row16 col5" >142</td>
+        <td id="T_row16_col6" class="data row16 col6" >4048.24</td>
+        <td id="T_row16_col7" class="data row16 col7" >261</td>
+      </tr>
+      <tr>
+        <td id="T_level0_row17" class="row_heading level0 row17" >AMSAT</th>
+        <td id="T_row17_col0" class="data row17 col0" >4116.23</td>
+        <td id="T_row17_col1" class="data row17 col1" >249</td>
+        <td id="T_row17_col2" class="data row17 col2" >2540.74</td>
+        <td id="T_row17_col3" class="data row17 col3" >117</td>
+        <td id="T_row17_col4" class="data row17 col4" >4396.36</td>
+        <td id="T_row17_col5" class="data row17 col5" >132</td>
+        <td id="T_row17_col6" class="data row17 col6" >4116.23</td>
+        <td id="T_row17_col7" class="data row17 col7" >249</td>
+      </tr>
+      <tr>
+        <td id="T_level0_row18" class="row_heading level0 row18" >SeqFROST-NoExtend</th>
+        <td id="T_row18_col0" class="data row18 col0" >4180.95</td>
+        <td id="T_row18_col1" class="data row18 col1" >251</td>
+        <td id="T_row18_col2" class="data row18 col2" >2831.56</td>
+        <td id="T_row18_col3" class="data row18 col3" >116</td>
+        <td id="T_row18_col4" class="data row18 col4" >4308.47</td>
+        <td id="T_row18_col5" class="data row18 col5" >135</td>
+        <td id="T_row18_col6" class="data row18 col6" >4180.95</td>
+        <td id="T_row18_col7" class="data row18 col7" >251</td>
+      </tr>
+      <tr>
+        <td id="T_level0_row19" class="row_heading level0 row19" >SeqFROST</th>
+        <td id="T_row19_col0" class="data row19 col0" >4222.91</td>
+        <td id="T_row19_col1" class="data row19 col1" >248</td>
+        <td id="T_row19_col2" class="data row19 col2" >2931.01</td>
+        <td id="T_row19_col3" class="data row19 col3" >114</td>
+        <td id="T_row19_col4" class="data row19 col4" >4315.30</td>
+        <td id="T_row19_col5" class="data row19 col5" >134</td>
+        <td id="T_row19_col6" class="data row19 col6" >4222.91</td>
+        <td id="T_row19_col7" class="data row19 col7" >248</td>
+      </tr>
+      <tr>
+        <td id="T_level0_row20" class="row_heading level0 row20" >SeqFROST-ERE-All</th>
+        <td id="T_row20_col0" class="data row20 col0" >4254.86</td>
+        <td id="T_row20_col1" class="data row20 col1" >247</td>
+        <td id="T_row20_col2" class="data row20 col2" >2994.19</td>
+        <td id="T_row20_col3" class="data row20 col3" >113</td>
+        <td id="T_row20_col4" class="data row20 col4" >4329.48</td>
+        <td id="T_row20_col5" class="data row20 col5" >134</td>
+        <td id="T_row20_col6" class="data row20 col6" >4254.86</td>
+        <td id="T_row20_col7" class="data row20 col7" >247</td>
+      </tr>
+      <tr>
+        <td id="T_level0_row21" class="row_heading level0 row21" >KissatMab-Rephases</th>
+        <td id="T_row21_col0" class="data row21 col0" >4311.36</td>
+        <td id="T_row21_col1" class="data row21 col1" >246</td>
+        <td id="T_row21_col2" class="data row21 col2" >2897.79</td>
+        <td id="T_row21_col3" class="data row21 col3" >116</td>
+        <td id="T_row21_col4" class="data row21 col4" >4503.64</td>
+        <td id="T_row21_col5" class="data row21 col5" >130</td>
+        <td id="T_row21_col6" class="data row21 col6" >4274.64</td>
+        <td id="T_row21_col7" class="data row21 col7" >248</td>
+      </tr>
+      <tr>
+        <td id="T_level0_row22" class="row_heading level0 row22" >KissatMab-Conflict</th>
+        <td id="T_row22_col0" class="data row22 col0" >4323.33</td>
+        <td id="T_row22_col1" class="data row22 col1" >247</td>
+        <td id="T_row22_col2" class="data row22 col2" >2860.87</td>
+        <td id="T_row22_col3" class="data row22 col3" >118</td>
+        <td id="T_row22_col4" class="data row22 col4" >4552.36</td>
+        <td id="T_row22_col5" class="data row22 col5" >129</td>
+        <td id="T_row22_col6" class="data row22 col6" >4287.14</td>
+        <td id="T_row22_col7" class="data row22 col7" >249</td>
+      </tr>
+      <tr>
+        <td id="T_level0_row23" class="row_heading level0 row23" >TabularaSAT</th>
+        <td id="T_row23_col0" class="data row23 col0" >4434.80</td>
+        <td id="T_row23_col1" class="data row23 col1" >239</td>
+        <td id="T_row23_col2" class="data row23 col2" >2738.30</td>
+        <td id="T_row23_col3" class="data row23 col3" >117</td>
+        <td id="T_row23_col4" class="data row23 col4" >4847.55</td>
+        <td id="T_row23_col5" class="data row23 col5" >122</td>
+        <td id="T_row23_col6" class="data row23 col6" >4434.80</td>
+        <td id="T_row23_col7" class="data row23 col7" >239</td>
+      </tr>
+      <tr>
+        <td id="T_level0_row24" class="row_heading level0 row24" >Kissat-hywalk-exp</th>
+        <td id="T_row24_col0" class="data row24 col0" >4548.90</td>
+        <td id="T_row24_col1" class="data row24 col1" >234</td>
+        <td id="T_row24_col2" class="data row24 col2" >3407.73</td>
+        <td id="T_row24_col3" class="data row24 col3" >106</td>
+        <td id="T_row24_col4" class="data row24 col4" >4580.32</td>
+        <td id="T_row24_col5" class="data row24 col5" >128</td>
+        <td id="T_row24_col6" class="data row24 col6" >4513.30</td>
+        <td id="T_row24_col7" class="data row24 col7" >236</td>
+      </tr>
+      <tr>
+        <td id="T_level0_row25" class="row_heading level0 row25" >Kissat-hywalk-gb</th>
+        <td id="T_row25_col0" class="data row25 col0" >4555.19</td>
+        <td id="T_row25_col1" class="data row25 col1" >235</td>
+        <td id="T_row25_col2" class="data row25 col2" >3317.49</td>
+        <td id="T_row25_col3" class="data row25 col3" >108</td>
+        <td id="T_row25_col4" class="data row25 col4" >4656.66</td>
+        <td id="T_row25_col5" class="data row25 col5" >127</td>
+        <td id="T_row25_col6" class="data row25 col6" >4519.78</td>
+        <td id="T_row25_col7" class="data row25 col7" >237</td>
+      </tr>
+      <tr>
+        <td id="T_level0_row26" class="row_heading level0 row26" >KissatMab-DeepWalk</th>
+        <td id="T_row26_col0" class="data row26 col0" >4577.75</td>
+        <td id="T_row26_col1" class="data row26 col1" >233</td>
+        <td id="T_row26_col2" class="data row26 col2" >3543.09</td>
+        <td id="T_row26_col3" class="data row26 col3" >105</td>
+        <td id="T_row26_col4" class="data row26 col4" >4537.03</td>
+        <td id="T_row26_col5" class="data row26 col5" >128</td>
+        <td id="T_row26_col6" class="data row26 col6" >4538.31</td>
+        <td id="T_row26_col7" class="data row26 col7" >235</td>
+      </tr>
+      <tr>
+        <td id="T_level0_row27" class="row_heading level0 row27" >MergeSatBVE-semgates</th>
+        <td id="T_row27_col0" class="data row27 col0" >4591.08</td>
+        <td id="T_row27_col1" class="data row27 col1" >233</td>
+        <td id="T_row27_col2" class="data row27 col2" >2931.13</td>
+        <td id="T_row27_col3" class="data row27 col3" >113</td>
+        <td id="T_row27_col4" class="data row27 col4" >5000.17</td>
+        <td id="T_row27_col5" class="data row27 col5" >120</td>
+        <td id="T_row27_col6" class="data row27 col6" >4591.08</td>
+        <td id="T_row27_col7" class="data row27 col7" >233</td>
+      </tr>
+      <tr>
+        <td id="T_level0_row28" class="row_heading level0 row28" >KissatMab-Conflict</th>
+        <td id="T_row28_col0" class="data row28 col0" >4610.94</td>
+        <td id="T_row28_col1" class="data row28 col1" >233</td>
+        <td id="T_row28_col2" class="data row28 col2" >3410.37</td>
+        <td id="T_row28_col3" class="data row28 col3" >108</td>
+        <td id="T_row28_col4" class="data row28 col4" >4693.85</td>
+        <td id="T_row28_col5" class="data row28 col5" >125</td>
+        <td id="T_row28_col6" class="data row28 col6" >4574.32</td>
+        <td id="T_row28_col7" class="data row28 col7" >235</td>
+      </tr>
+      <tr>
+        <td id="T_level0_row29" class="row_heading level0 row29" >MergeSatBVE-gates</th>
+        <td id="T_row29_col0" class="data row29 col0" >4651.73</td>
+        <td id="T_row29_col1" class="data row29 col1" >229</td>
+        <td id="T_row29_col2" class="data row29 col2" >3149.07</td>
+        <td id="T_row29_col3" class="data row29 col3" >109</td>
+        <td id="T_row29_col4" class="data row29 col4" >4956.90</td>
+        <td id="T_row29_col5" class="data row29 col5" >120</td>
+        <td id="T_row29_col6" class="data row29 col6" >4651.73</td>
+        <td id="T_row29_col7" class="data row29 col7" >229</td>
+      </tr>
+      <tr>
+        <td id="T_level0_row30" class="row_heading level0 row30" >KissatMab-ESA</th>
+        <td id="T_row30_col0" class="data row30 col0" >4663.63</td>
+        <td id="T_row30_col1" class="data row30 col1" >228</td>
+        <td id="T_row30_col2" class="data row30 col2" >3654.26</td>
+        <td id="T_row30_col3" class="data row30 col3" >102</td>
+        <td id="T_row30_col4" class="data row30 col4" >4617.19</td>
+        <td id="T_row30_col5" class="data row30 col5" >126</td>
+        <td id="T_row30_col6" class="data row30 col6" >4627.84</td>
+        <td id="T_row30_col7" class="data row30 col7" >230</td>
+      </tr>
+      <tr>
+        <td id="T_level0_row31" class="row_heading level0 row31" >Kissat-hywalk-exp-gb</th>
+        <td id="T_row31_col0" class="data row31 col0" >4663.67</td>
+        <td id="T_row31_col1" class="data row31 col1" >228</td>
+        <td id="T_row31_col2" class="data row31 col2" >3635.77</td>
+        <td id="T_row31_col3" class="data row31 col3" >102</td>
+        <td id="T_row31_col4" class="data row31 col4" >4630.51</td>
+        <td id="T_row31_col5" class="data row31 col5" >126</td>
+        <td id="T_row31_col6" class="data row31 col6" >4630.00</td>
+        <td id="T_row31_col7" class="data row31 col7" >230</td>
+      </tr>
+      <tr>
+        <td id="T_level0_row32" class="row_heading level0 row32" >Kissat-incsp</th>
+        <td id="T_row32_col0" class="data row32 col0" >4732.05</td>
+        <td id="T_row32_col1" class="data row32 col1" >228</td>
+        <td id="T_row32_col2" class="data row32 col2" >3703.87</td>
+        <td id="T_row32_col3" class="data row32 col3" >103</td>
+        <td id="T_row32_col4" class="data row32 col4" >4708.94</td>
+        <td id="T_row32_col5" class="data row32 col5" >125</td>
+        <td id="T_row32_col6" class="data row32 col6" >4676.87</td>
+        <td id="T_row32_col7" class="data row32 col7" >231</td>
+      </tr>
+      <tr>
+        <td id="T_level0_row33" class="row_heading level0 row33" >MergeSat</th>
+        <td id="T_row33_col0" class="data row33 col0" >4750.55</td>
+        <td id="T_row33_col1" class="data row33 col1" >228</td>
+        <td id="T_row33_col2" class="data row33 col2" >3177.14</td>
+        <td id="T_row33_col3" class="data row33 col3" >109</td>
+        <td id="T_row33_col4" class="data row33 col4" >5120.65</td>
+        <td id="T_row33_col5" class="data row33 col5" >119</td>
+        <td id="T_row33_col6" class="data row33 col6" >4750.55</td>
+        <td id="T_row33_col7" class="data row33 col7" >228</td>
+      </tr>
+      <tr>
+        <td id="T_level0_row34" class="row_heading level0 row34" >KissatMab-Binary</th>
+        <td id="T_row34_col0" class="data row34 col0" >4753.71</td>
+        <td id="T_row34_col1" class="data row34 col1" >225</td>
+        <td id="T_row34_col2" class="data row34 col2" >3714.41</td>
+        <td id="T_row34_col3" class="data row34 col3" >101</td>
+        <td id="T_row34_col4" class="data row34 col4" >4741.70</td>
+        <td id="T_row34_col5" class="data row34 col5" >124</td>
+        <td id="T_row34_col6" class="data row34 col6" >4718.18</td>
+        <td id="T_row34_col7" class="data row34 col7" >227</td>
+      </tr>
+      <tr>
+        <td id="T_level0_row35" class="row_heading level0 row35" >KissatInc-ESA</th>
+        <td id="T_row35_col0" class="data row35 col0" >4794.27</td>
+        <td id="T_row35_col1" class="data row35 col1" >225</td>
+        <td id="T_row35_col2" class="data row35 col2" >3938.81</td>
+        <td id="T_row35_col3" class="data row35 col3" >99</td>
+        <td id="T_row35_col4" class="data row35 col4" >4656.43</td>
+        <td id="T_row35_col5" class="data row35 col5" >126</td>
+        <td id="T_row35_col6" class="data row35 col6" >4775.10</td>
+        <td id="T_row35_col7" class="data row35 col7" >226</td>
+      </tr>
+      <tr>
+        <td id="T_level0_row36" class="row_heading level0 row36" >hKis UNSAT</th>
+        <td id="T_row36_col0" class="data row36 col0" >4862.98</td>
+        <td id="T_row36_col1" class="data row36 col1" >219</td>
+        <td id="T_row36_col2" class="data row36 col2" >4017.92</td>
+        <td id="T_row36_col3" class="data row36 col3" >95</td>
+        <td id="T_row36_col4" class="data row36 col4" >4727.58</td>
+        <td id="T_row36_col5" class="data row36 col5" >124</td>
+        <td id="T_row36_col6" class="data row36 col6" >4841.84</td>
+        <td id="T_row36_col7" class="data row36 col7" >220</td>
+      </tr>
+      <tr>
+        <td id="T_level0_row37" class="row_heading level0 row37" >BreakId Kissat</th>
+        <td id="T_row37_col0" class="data row37 col0" >4913.32</td>
+        <td id="T_row37_col1" class="data row37 col1" >208</td>
+        <td id="T_row37_col2" class="data row37 col2" >2890.95</td>
+        <td id="T_row37_col3" class="data row37 col3" >112</td>
+        <td id="T_row37_col4" class="data row37 col4" >5628.47</td>
+        <td id="T_row37_col5" class="data row37 col5" >96</td>
+        <td id="T_row37_col6" class="data row37 col6" >3376.88</td>
+        <td id="T_row37_col7" class="data row37 col7" >283</td>
+      </tr>
+      <tr>
+        <td id="T_level0_row38" class="row_heading level0 row38" >hKis SAT-psids</th>
+        <td id="T_row38_col0" class="data row38 col0" >5518.76</td>
+        <td id="T_row38_col1" class="data row38 col1" >194</td>
+        <td id="T_row38_col2" class="data row38 col2" >5727.16</td>
+        <td id="T_row38_col3" class="data row38 col3" >68</td>
+        <td id="T_row38_col4" class="data row38 col4" >4723.36</td>
+        <td id="T_row38_col5" class="data row38 col5" >126</td>
+        <td id="T_row38_col6" class="data row38 col6" >5518.76</td>
+        <td id="T_row38_col7" class="data row38 col7" >194</td>
+      </tr>
+      <tr>
+        <td id="T_level0_row39" class="row_heading level0 row39" >hKissatInc UNSAT</th>
+        <td id="T_row39_col0" class="data row39 col0" >5797.43</td>
+        <td id="T_row39_col1" class="data row39 col1" >181</td>
+        <td id="T_row39_col2" class="data row39 col2" >6420.83</td>
+        <td id="T_row39_col3" class="data row39 col3" >58</td>
+        <td id="T_row39_col4" class="data row39 col4" >4744.94</td>
+        <td id="T_row39_col5" class="data row39 col5" >123</td>
+        <td id="T_row39_col6" class="data row39 col6" >5784.35</td>
+        <td id="T_row39_col7" class="data row39 col7" >182</td>
+      </tr>
+      <tr>
+        <td id="T_level0_row40" class="row_heading level0 row40" >hKis-psids</th>
+        <td id="T_row40_col0" class="data row40 col0" >6140.76</td>
+        <td id="T_row40_col1" class="data row40 col1" >166</td>
+        <td id="T_row40_col2" class="data row40 col2" >6949.36</td>
+        <td id="T_row40_col3" class="data row40 col3" >49</td>
+        <td id="T_row40_col4" class="data row40 col4" >5005.12</td>
+        <td id="T_row40_col5" class="data row40 col5" >117</td>
+        <td id="T_row40_col6" class="data row40 col6" >6119.46</td>
+        <td id="T_row40_col7" class="data row40 col7" >167</td>
+      </tr>
+      <tr>
+        <td id="T_level0_row41" class="row_heading level0 row41" >IsaSAT</th>
+        <td id="T_row41_col0" class="data row41 col0" >6821.78</td>
+        <td id="T_row41_col1" class="data row41 col1" >141</td>
+        <td id="T_row41_col2" class="data row41 col2" >6491.89</td>
+        <td id="T_row41_col3" class="data row41 col3" >58</td>
+        <td id="T_row41_col4" class="data row41 col4" >6599.82</td>
+        <td id="T_row41_col5" class="data row41 col5" >83</td>
+        <td id="T_row41_col6" class="data row41 col6" >6821.78</td>
+        <td id="T_row41_col7" class="data row41 col7" >141</td>
+      </tr>
+      <tr>
+        <td id="T_level0_row42" class="row_heading level0 row42" >MinisatXor</th>
+        <td id="T_row42_col0" class="data row42 col0" >7961.17</td>
+        <td id="T_row42_col1" class="data row42 col1" >86</td>
+        <td id="T_row42_col2" class="data row42 col2" >6543.42</td>
+        <td id="T_row42_col3" class="data row42 col3" >57</td>
+        <td id="T_row42_col4" class="data row42 col4" >8682.71</td>
+        <td id="T_row42_col5" class="data row42 col5" >29</td>
+        <td id="T_row42_col6" class="data row42 col6" >7614.48</td>
+        <td id="T_row42_col7" class="data row42 col7" >102</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h3>Parallel Track</h3>
+  <table class="sortable" style="font-size:8pt">
+    <thead>
+      <tr>
+        <th class="sorttable_nosort">Solver</th>
+        <th id="T_level0_col0" class="col_heading level0 col0" >Score</th>
+        <th id="T_level0_col1" class="col_heading level0 col1" >Solved</th>
+        <th id="T_level0_col2" class="col_heading level0 col2" >Score SAT</th>
+        <th id="T_level0_col3" class="col_heading level0 col3" >Solved SAT</th>
+        <th id="T_level0_col4" class="col_heading level0 col4" >Score UNSAT</th>
+        <th id="T_level0_col5" class="col_heading level0 col5" >Solved UNSAT</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="vbs">
+        <td id="T_level0_row0" class="vbs" >VBS</td>
+        <td id="T_row0_col0" class="data row0 col0" >1432.20</td>
+        <td id="T_row0_col1" class="data row0 col1" >351</td>
+        <td id="T_row0_col2" class="data row0 col2" >310.31</td>
+        <td id="T_row0_col3" class="data row0 col3" >155</td>
+        <td id="T_row0_col4" class="data row0 col4" >423.49</td>
+        <td id="T_row0_col5" class="data row0 col5" >196</td>
+      </tr>
+      <tr>
+        <td id="T_level0_row1" class="row_heading level0 row1" >PRS</th>
+        <td id="T_row1_col0" class="data row1 col0" >2272.36</td>
+        <td id="T_row1_col1" class="data row1 col1" >320</td>
+        <td id="T_row1_col2" class="data row1 col2" >1143.56</td>
+        <td id="T_row1_col3" class="data row1 col3" >143</td>
+        <td id="T_row1_col4" class="data row1 col4" >1455.86</td>
+        <td id="T_row1_col5" class="data row1 col5" >177</td>
+      </tr>
+      <tr>
+        <td id="T_level0_row2" class="row_heading level0 row2" >Mallob64</th>
+        <td id="T_row2_col0" class="data row2 col0" >2746.30</td>
+        <td id="T_row2_col1" class="data row2 col1" >301</td>
+        <td id="T_row2_col2" class="data row2 col2" >1505.21</td>
+        <td id="T_row2_col3" class="data row2 col3" >137</td>
+        <td id="T_row2_col4" class="data row2 col4" >2124.74</td>
+        <td id="T_row2_col5" class="data row2 col5" >164</td>
+      </tr>
+      <tr>
+        <td id="T_level0_row3" class="row_heading level0 row3" >pKissat</th>
+        <td id="T_row3_col0" class="data row3 col0" >2824.57</td>
+        <td id="T_row3_col1" class="data row3 col1" >297</td>
+        <td id="T_row3_col2" class="data row3 col2" >2044.06</td>
+        <td id="T_row3_col3" class="data row3 col3" >127</td>
+        <td id="T_row3_col4" class="data row3 col4" >1852.87</td>
+        <td id="T_row3_col5" class="data row3 col5" >170</td>
+      </tr>
+      <tr>
+        <td id="T_level0_row4" class="row_heading level0 row4" >pKissat str</th>
+        <td id="T_row4_col0" class="data row4 col0" >2842.08</td>
+        <td id="T_row4_col1" class="data row4 col1" >296</td>
+        <td id="T_row4_col2" class="data row4 col2" >1992.65</td>
+        <td id="T_row4_col3" class="data row4 col3" >128</td>
+        <td id="T_row4_col4" class="data row4 col4" >1929.27</td>
+        <td id="T_row4_col5" class="data row4 col5" >168</td>
+      </tr>
+      <tr>
+        <td id="T_level0_row5" class="row_heading level0 row5" >pKisDs step</th>
+        <td id="T_row5_col0" class="data row5 col0" >2879.46</td>
+        <td id="T_row5_col1" class="data row5 col1" >296</td>
+        <td id="T_row5_col2" class="data row5 col2" >1796.61</td>
+        <td id="T_row5_col3" class="data row5 col3" >132</td>
+        <td id="T_row5_col4" class="data row5 col4" >2161.21</td>
+        <td id="T_row5_col5" class="data row5 col5" >164</td>
+      </tr>
+      <tr>
+        <td id="T_level0_row6" class="row_heading level0 row6" >Mallob32</th>
+        <td id="T_row6_col0" class="data row6 col0" >2941.00</td>
+        <td id="T_row6_col1" class="data row6 col1" >293</td>
+        <td id="T_row6_col2" class="data row6 col2" >1951.84</td>
+        <td id="T_row6_col3" class="data row6 col3" >129</td>
+        <td id="T_row6_col4" class="data row6 col4" >2161.65</td>
+        <td id="T_row6_col5" class="data row6 col5" >164</td>
+      </tr>
+      <tr>
+        <td id="T_level0_row7" class="row_heading level0 row7" >PRS nopre</th>
+        <td id="T_row7_col0" class="data row7 col0" >3021.52</td>
+        <td id="T_row7_col1" class="data row7 col1" >291</td>
+        <td id="T_row7_col2" class="data row7 col2" >1951.03</td>
+        <td id="T_row7_col3" class="data row7 col3" >131</td>
+        <td id="T_row7_col4" class="data row7 col4" >2324.98</td>
+        <td id="T_row7_col5" class="data row7 col5" >160</td>
+      </tr>
+      <tr>
+        <td id="T_level0_row8" class="row_heading level0 row8" >pKisDs</th>
+        <td id="T_row8_col0" class="data row8 col0" >3024.57</td>
+        <td id="T_row8_col1" class="data row8 col1" >288</td>
+        <td id="T_row8_col2" class="data row8 col2" >2060.59</td>
+        <td id="T_row8_col3" class="data row8 col3" >127</td>
+        <td id="T_row8_col4" class="data row8 col4" >2243.71</td>
+        <td id="T_row8_col5" class="data row8 col5" >161</td>
+      </tr>
+      <tr>
+        <td id="T_level0_row9" class="row_heading level0 row9" >Malloblin</th>
+        <td id="T_row9_col0" class="data row9 col0" >3151.92</td>
+        <td id="T_row9_col1" class="data row9 col1" >284</td>
+        <td id="T_row9_col2" class="data row9 col2" >3313.36</td>
+        <td id="T_row9_col3" class="data row9 col3" >108</td>
+        <td id="T_row9_col4" class="data row9 col4" >1501.29</td>
+        <td id="T_row9_col5" class="data row9 col5" >176</td>
+      </tr>
+      <tr>
+        <td id="T_level0_row10" class="row_heading level0 row10" >NPS</th>
+        <td id="T_row10_col0" class="data row10 col0" >3296.59</td>
+        <td id="T_row10_col1" class="data row10 col1" >276</td>
+        <td id="T_row10_col2" class="data row10 col2" >1951.10</td>
+        <td id="T_row10_col3" class="data row10 col3" >129</td>
+        <td id="T_row10_col4" class="data row10 col4" >2880.63</td>
+        <td id="T_row10_col5" class="data row10 col5" >147</td>
+      </tr>
+      <tr>
+        <td id="T_level0_row11" class="row_heading level0 row11" >DPS</th>
+        <td id="T_row11_col0" class="data row11 col0" >3320.56</td>
+        <td id="T_row11_col1" class="data row11 col1" >275</td>
+        <td id="T_row11_col2" class="data row11 col2" >1972.77</td>
+        <td id="T_row11_col3" class="data row11 col3" >128</td>
+        <td id="T_row11_col4" class="data row11 col4" >2911.76</td>
+        <td id="T_row11_col5" class="data row11 col5" >147</td>
+      </tr>
+      <tr>
+        <td id="T_level0_row12" class="row_heading level0 row12" >Gimsatul</th>
+        <td id="T_row12_col0" class="data row12 col0" >3370.38</td>
+        <td id="T_row12_col1" class="data row12 col1" >273</td>
+        <td id="T_row12_col2" class="data row12 col2" >2280.88</td>
+        <td id="T_row12_col3" class="data row12 col3" >123</td>
+        <td id="T_row12_col4" class="data row12 col4" >2766.53</td>
+        <td id="T_row12_col5" class="data row12 col5" >150</td>
+      </tr>
+      <tr>
+        <td id="T_level0_row13" class="row_heading level0 row13" >PahKis</th>
+        <td id="T_row13_col0" class="data row13 col0" >3560.53</td>
+        <td id="T_row13_col1" class="data row13 col1" >270</td>
+        <td id="T_row13_col2" class="data row13 col2" >2610.05</td>
+        <td id="T_row13_col3" class="data row13 col3" >121</td>
+        <td id="T_row13_col4" class="data row13 col4" >2888.01</td>
+        <td id="T_row13_col5" class="data row13 col5" >149</td>
+      </tr>
+      <tr>
+        <td id="T_level0_row14" class="row_heading level0 row14" >PahKis inc</th>
+        <td id="T_row14_col0" class="data row14 col0" >3662.42</td>
+        <td id="T_row14_col1" class="data row14 col1" >267</td>
+        <td id="T_row14_col2" class="data row14 col2" >2942.34</td>
+        <td id="T_row14_col3" class="data row14 col3" >116</td>
+        <td id="T_row14_col4" class="data row14 col4" >2828.68</td>
+        <td id="T_row14_col5" class="data row14 col5" >151</td>
+      </tr>
+      <tr>
+        <td id="T_level0_row15" class="row_heading level0 row15" >Mergesat</th>
+        <td id="T_row15_col0" class="data row15 col0" >4640.77</td>
+        <td id="T_row15_col1" class="data row15 col1" >229</td>
+        <td id="T_row15_col2" class="data row15 col2" >2492.75</td>
+        <td id="T_row15_col3" class="data row15 col3" >122</td>
+        <td id="T_row15_col4" class="data row15 col4" >5163.91</td>
+        <td id="T_row15_col5" class="data row15 col5" >107</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h3>Cloud Track</h3>
+  <table class="sortable" style="font-size:8pt">
+    <thead>
+      <tr>
+        <th class="sorttable_nosort">Solver</th>
+        <th id="T_level0_col0" class="col_heading level0 col0" >Score</th>
+        <th id="T_level0_col1" class="col_heading level0 col1" >Solved</th>
+        <th id="T_level0_col2" class="col_heading level0 col2" >Score SAT</th>
+        <th id="T_level0_col3" class="col_heading level0 col3" >Solved SAT</th>
+        <th id="T_level0_col4" class="col_heading level0 col4" >Score UNSAT</th>
+        <th id="T_level0_col5" class="col_heading level0 col5" >Solved UNSAT</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="vbs">
+        <td id="T_level0_row0" class="vbs" >VBS</td>
+        <td id="T_row0_col0" class="data row0 col0" >313.10</td>
+        <td id="T_row0_col1" class="data row0 col1" >349</td>
+        <td id="T_row0_col2" class="data row0 col2" >116.08</td>
+        <td id="T_row0_col3" class="data row0 col3" >154</td>
+        <td id="T_row0_col4" class="data row0 col4" >95.45</td>
+        <td id="T_row0_col5" class="data row0 col5" >195</td>
+      </tr>
+      <tr>
+        <td id="T_level0_row1" class="row_heading level0 row1" >Mallob1600</th>
+        <td id="T_row1_col0" class="data row1 col0" >426.10</td>
+        <td id="T_row1_col1" class="data row1 col1" >328</td>
+        <td id="T_row1_col2" class="data row1 col2" >195.20</td>
+        <td id="T_row1_col3" class="data row1 col3" >148</td>
+        <td id="T_row1_col4" class="data row1 col4" >260.60</td>
+        <td id="T_row1_col5" class="data row1 col5" >180</td>
+      </tr>
+      <tr>
+        <td id="T_level0_row2" class="row_heading level0 row2" >PRS~Dist</th>
+        <td id="T_row2_col0" class="data row2 col0" >530.92</td>
+        <td id="T_row2_col1" class="data row2 col1" >305</td>
+        <td id="T_row2_col2" class="data row2 col2" >280.06</td>
+        <td id="T_row2_col3" class="data row2 col3" >140</td>
+        <td id="T_row2_col4" class="data row2 col4" >404.64</td>
+        <td id="T_row2_col5" class="data row2 col5" >165</td>
+      </tr>
+      <tr>
+        <td id="T_level0_row3" class="row_heading level0 row3" >Malloblin</th>
+        <td id="T_row3_col0" class="data row3 col0" >573.53</td>
+        <td id="T_row3_col1" class="data row3 col1" >297</td>
+        <td id="T_row3_col2" class="data row3 col2" >535.19</td>
+        <td id="T_row3_col3" class="data row3 col3" >118</td>
+        <td id="T_row3_col4" class="data row3 col4" >287.13</td>
+        <td id="T_row3_col5" class="data row3 col5" >179</td>
+      </tr>
+    </tbody>
+  </table>
 
   </div>
 </div>
